@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AddItem</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="../styles/materialize.css">
+    
+    <link rel="stylesheet" type="text/css" href="../styles/style.css">
+
+    <script type="text/javascript" src="../scripts/jquery-3.3.1.js"></script>
+
+    <link rel="manifest" href="../manifest.json">
+
+    <!-- Add to home screen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Template PWA">
+    <link rel="apple-touch-icon" href="images/icons/icon-152x152.png">
+    <!-- Windows -->
+    <meta name="msapplication-TileImage" content="images/icons/icon-144x144.png">
+    <meta name="msapplication-TileColor" content="#2F3BA2">
+
+    <link rel="icon"
+         type="image/png"
+         href="../images/icons/icon-144x144.png">
+  </head>
+  <body>
+
+    <main class="container">
+      <div class="row">
+        <div class="col s12 top-bar">
+           <a><i class="material-icons md-36 left">close</i></a>
+           <h5 class="add-item-heading">Add Items</h5>
+        </div>  
+
+        <div class="input-field col s12">
+          <input id="first_name" type="text" class="validate">
+          <label for="item-name">Enter an Item</label>
+        </div>
+
+        <div class="col s12 column-bottom-margin">
+          <p style="margin-bottom: 16px; font-weight: 700;" for="item-name">Priority</p>
+
+          <a class="waves-effect waves-light btn btn-priority priority-active" href="">High</a>
+          <a class="waves-effect waves-light btn btn-priority" href="">Medium</a>
+          <a class="waves-effect waves-light btn btn-priority" href="">Low</a>
+        </div>
+
+        <div class="col s12 column-bottom-margin">
+          <p style="font-weight: 700;" for="item-name">Budget</p>
+
+          <div class="row">
+            <div class="input-field col s6">
+              <input id="budget" type="text" class="validate">
+              <label for="budget">Enter your Max Budget</label>
+            </div>
+            <p style="margin-top: 24px;" class="col s6">€</p>
+          </div>
+          
+        </div>
+
+        <a class="waves-effect waves-light btn btn-additem" href="pages/itemList.html">Add Item</a>
+
+
+
+        
+        
+
+      </div>
+    </main>
+
+    <script type="text/javascript" src="../scripts/app.js"></script>
+     <script type="text/javascript" src="../scripts/materialize.js"></script>
+  </body>
+</html>

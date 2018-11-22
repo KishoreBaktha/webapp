@@ -1,0 +1,148 @@
+<style>
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.card {
+  margin: 15px;
+}
+
+.logo {
+	margin-top: 230px;
+	margin-bottom: 40px;
+}
+
+.hr-rule {
+	margin-bottom: 40px;
+	width: 80%;
+	height: 2px;
+}
+
+.btn-shop {
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	background-color: #4CA448;
+}
+
+.text-bold {
+	font-weight: 700;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+
+.flex-container {
+	display: block;
+}
+
+.vertical-align {
+	vertical-align: bottom;
+}
+
+.row {
+	margin-bottom: 8px;
+}
+
+.flex-container {
+	display: flex;
+	justify-content: center;
+}
+
+/* Login and Register Page */
+
+.login-head, .register-head {
+	margin-top: 180px;
+}
+
+.btn-login, .btn-register {
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	background-color: #4CA448;
+}
+
+/* enterList */
+
+.top-bar {
+	margin-top: 16px;
+	margin-bottom: 24px;
+}
+
+.shop-list-head {
+	margin-left: 16px;
+	margin-bottom: 24px;
+	font-weight: bold;
+}
+
+.add-item {
+	margin-top: 200px;
+	margin-bottom: 16px;
+}
+
+/* add items heading */
+
+.add-item-heading {
+	font-weight: 700;
+}
+
+.btn-priority {
+	background-color: #fff;
+	border: 1px solid #4CA448;
+	color: #2e2e2e;
+}
+
+.priority-active {
+	background-color: #4CA448;
+	color: #fff;
+}
+
+.btn-additem, .btn-searchshops {
+	display: block;
+	width: 96%;
+	position: absolute;
+	bottom: 0;
+	background-color: #4CA448;
+}
+
+.column-bottom-margin {
+	margin-bottom: 24px;
+}
+
+/* Item List */
+
+.items-list div {
+	margin-bottom: 24px;
+	border-bottom: 1px solid #d9d9d9;
+}
+
+.items-list div p {
+	margin-bottom: 18px;
+}
+</style>

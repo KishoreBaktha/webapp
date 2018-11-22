@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Register to SmartShop</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="../styles/materialize.css">
+    <link rel="stylesheet" type="text/css" href="../styles/style.css">
+
+    <script type="text/javascript" src="../scripts/jquery-3.3.1.js"></script>
+
+    <link rel="manifest" href="../manifest.json">
+
+    <!-- Add to home screen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Template PWA">
+    <link rel="apple-touch-icon" href="images/icons/icon-152x152.png">
+    <!-- Windows -->
+    <meta name="msapplication-TileImage" content="images/icons/icon-144x144.png">
+    <meta name="msapplication-TileColor" content="#2F3BA2">
+
+    <link rel="icon"
+         type="image/png"
+         href="../images/icons/icon-144x144.png">
+  </head>
+  <body>
+  <form action="register.php" method="post">
+    <main class="container">
+      <div class="row">
+        <div class="col s12">
+          <h5 class="login-head center-align">New User? Register Here</h5>
+        </div>
+        <div class="row">
+          <div class="input-field col s10 offset-s1">
+            <input id="username"  name="username" type="text" class="validate">
+            <label for="username">Username</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s10 offset-s1">
+            <input id="password" type="password" name="password" class="validate">
+            <label for="password">Password</label>
+          </div>
+        </div>
+      </div>
+         <center>  <button class="waves-effect waves-light btn-large btn-login" type="submit" style="background-color: #4CAF50">REGISTER</button></center>
+        <!-- <a class="waves-effect waves-light btn-large btn-login" href="login.html">Register<i class="material-icons md-36 vertical-align">arrow_right_alt</i></a> -->
+      </div>
+    </main>
+  </form>
+    <script type="text/javascript" src="../scripts/app.js"></script>
+     <script type="text/javascript" src="../scripts/materialize.js"></script>
+  </body>
+</html>
